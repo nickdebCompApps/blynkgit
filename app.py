@@ -4,8 +4,8 @@ import gpiozero as gpio
 
 ledP = gpio.LED(20)
 
-BLYNK_AUTH = '27b431bedee74135811a8063d96dc6fc' #PROJECT
-BLYNK_AUTH_APP = '89d6bf2ffc7146d18079ff5e16b180ef' #APP
+BLYNK_AUTH = '' #PROJECT
+BLYNK_AUTH_APP = '' #APP
 
 # Initialize Blynk
 blynk = BlynkLib.Blynk(BLYNK_AUTH)
